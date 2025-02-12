@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -57,9 +58,37 @@
                 <option value="CSS">
                 <option value="JS">
                 <option value="Java">
-
             </datalist>
         </fieldset>
+
+        <fieldset>
+            <legend>Text Area</legend>
+            <label for="teste">Text Area</label><br>
+            <textarea name="teste" id="teste"></textarea>
+        </fieldset>
+
+        <h1>Botoes</h1>
+        <fieldset>
+            <input type="submit" name="" id="" value="Criar Conta">
+            <input type="reset" name="" id="" value="Limpar Dados">
+            <button type="reset">Tag Boatao</button>
+        </fieldset>
+
+        <h1>Atributos Importantes</h1>
+        <fieldset>
+            <h2>Required</h2>
+            <label for="user">User</label><br>
+            <input 
+            type="text" 
+            id="user" 
+            name="user" 
+            required
+            placeholder="Ex: placeholder" 
+            minlength="0"
+            maxlength="10">
+            <input type="submit" value="Disable (Desabilitado)" name="sub" id="sub">
+        </fieldset>
+
     </form>
 </body>
 </html>
